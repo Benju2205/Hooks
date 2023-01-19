@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Hooks from './Exercises/hooks'
+import Hooks2 from './Exercises/hooks2'
+import Hooks3 from './Exercises/hooks3'
+import UseEffect from './Exercises/useEffect'
+import Nightclass from './Exercises/nightClass'
+import Hooks4 from './Exercises/hooks4'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Hooks/> */}
+     {/* <Hooks2/> */}
+      {/* <Hooks3/> */}
+      <Hooks4/>
+     {/* <UseEffect/> */}
+     {/* <Nightclass/> */}
     </div>
   );
 }
